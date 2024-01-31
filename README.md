@@ -46,7 +46,7 @@ This project uses some of the basic tools in Linear Algebra to manipulate images
 
   - **Result**: 
 
- 												![](kuroky.jpg) ![](rotated_kuroky_by_45_deg.png)
+​											![](kuroky.jpg) ![](rotated_kuroky_by_45_deg.png)
 
 
 
@@ -68,8 +68,10 @@ This project uses some of the basic tools in Linear Algebra to manipulate images
 
   - **Approach**: Calculates the average of the blue, green, and red channels for the input region. Then, it replaces each pixel in the region with the average color channel of the entire region, resulting in a uniform color for that region.
 
-    - Result: ![](./kuroky.jpg) ![](./blurred_kuroky_2.png) ![](blurred_kuroky_1.png)
+    - Result:
 
+       ![](./kuroky.jpg) ![](./blurred_kuroky_2.png) ![](blurred_kuroky_1.png)
+    
     
 
 
@@ -140,13 +142,15 @@ This project uses some of the basic tools in Linear Algebra to manipulate images
   0 & 1 & 1 \\
   -1 & 0 & 1 \\
   -1 & -1 & 0
-  \end{bmatrix}
+  \end{bmatrix}
   $$
 
   
 
   - Result:
 
+     
+     
      ![](machine.png) ![](edges_machine.png)
 
   
